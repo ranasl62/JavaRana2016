@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="425.0" prefWidth="471.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.65" fx:controller="personalinfo.FXMLDocumentController">
+   <children>
+      <TextField fx:id="nameField" layoutX="133.0" layoutY="35.0" prefHeight="25.0" prefWidth="286.0" />
+      <TextField fx:id="mobileNoFiled" layoutX="133.0" layoutY="104.0" prefHeight="25.0" prefWidth="167.0" />
+      <TextField fx:id="eamilIdField" layoutX="133.0" layoutY="166.0" prefHeight="25.0" prefWidth="273.0" />
+      <TextArea fx:id="addressField" layoutX="136.0" layoutY="213.0" prefHeight="137.0" prefWidth="273.0" />
+      <Button layoutX="194.0" layoutY="367.0" mnemonicParsing="false" onAction="#handleSaveInDatabaseAction" prefHeight="25.0" prefWidth="127.0" text="Save in Database" />
+      <Text layoutX="53.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :" wrappingWidth="65.5078125">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="56.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email Id :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="47.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile No :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="66.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Label fx:id="labelField" layoutX="25.0" layoutY="366.0" prefHeight="27.0" prefWidth="143.0" />
+   </children>
+</AnchorPane>

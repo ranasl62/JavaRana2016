@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: PersonalInfo
+Implementation-Version: 1.0
+Permissions: sandbox
+Codebase: *
+JavaFX-Version: 8.0
+Class-Path: lib/mysql-connector-java-5.1.23-bin.jar
+Created-By: JavaFX Packager
+Implementation-Vendor: M Rana Hossain
+Main-Class: personalinfo.PersonalInfo
+
